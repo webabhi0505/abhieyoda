@@ -1,0 +1,34 @@
+.slider-container {
+    /* position: relative; */
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .dots-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    width: 5px;
+    height: 5px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: gray;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: black;
+  }
